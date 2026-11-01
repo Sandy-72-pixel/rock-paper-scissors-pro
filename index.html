@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the page mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rock Paper Scissors Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🎮 Rock Paper Scissors Pro</h1>
+
+        <button onclick="choose('Rock')">🪨 Rock</button>
+
+        <button onclick="choose('Paper')">📄 Paper</button>
+
+        <button onclick="choose('Scissors')">✂️ Scissors</button>
+
+        <p id="message">Choose your move!</p>
+
+        <h2>
+            Player Score:
+            <span id="playerScore">0</span>
+        </h2>
+
+        <h2>
+            Computer Score:
+            <span id="computerScore">0</span>
+        </h2>
+
+        <button onclick="resetGame()">🔄 Reset Game</button>
+
+        <p>Created by Sandy 🚀</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
