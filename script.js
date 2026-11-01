@@ -82,3 +82,9 @@ function resetGame() {
     document.getElementById("message").textContent =
         "Choose your move!";
 }
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+}
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+}
